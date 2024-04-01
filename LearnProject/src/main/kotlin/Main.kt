@@ -15,4 +15,11 @@ fun main(args: Array<String>) {
     var number: Float = 10.0F;
     println(number)
 
+    val CONST = "val to Stała"
+    var isTrue = true
+    var isFalse = false
+
+    println(CONST)
+    println(isTrue)
+    println(isFalse)
 }

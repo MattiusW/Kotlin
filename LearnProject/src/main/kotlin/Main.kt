@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
     var a = 20
-    var b = 10
+    var b = 30
     var c = '!'
     var s = "Hello World Kotlin"
 
@@ -22,4 +22,14 @@ fun main(args: Array<String>) {
     println(CONST)
     println(isTrue)
     println(isFalse)
+
+
+    // $ odwoluje sie do zmiennej w Stringu
+    if(a > b){
+        println("A = $a jest wieksze")
+    }
+    else{
+        println("B = $b jest większe")
+    }
+
 }

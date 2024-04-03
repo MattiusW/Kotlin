@@ -25,11 +25,23 @@ fun main(args: Array<String>) {
 
 
     // $ odwoluje sie do zmiennej w Stringu
-    if(a > b){
+    if (a > b){
         println("A = $a jest wieksze")
     }
     else{
         println("B = $b jest większe")
     }
 
+    if (b > 10) {
+        println("Sprawdzam warunek if: $b > 10")
+    }
+    else if (b == 30) {
+        println("Sprawdzam warunek else if: $b == 30")
+    }
+    if (b == 30) {
+        println("Sprawdzam warunek if: $b == 30")
+    }
+    else{
+        println("Pozostałość")
+    }
 }

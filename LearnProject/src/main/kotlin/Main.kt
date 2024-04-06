@@ -44,4 +44,29 @@ fun main(args: Array<String>) {
     else{
         println("Pozostałość")
     }
+
+    //Pętle for
+    for(i in 0..10){
+        println(i)
+    }
+
+    //Pętla co krok
+    for (i in 0..10 step 3) println(i)
+
+    //Pętla w dół
+
+    for (i in 10 downTo 0 step 2) println("Zmienna $i")
+
+    //Pętle WHILE
+    var licznik = 0
+    while (licznik <= 10) {
+        println("Licznik --> $licznik")
+        licznik++
+    }
+
+    //Petla doWhile
+
+    do {
+        println("Warunek sprawdzany jest raz mimo, że pętla jest fałszywa")
+    }while (false)
 }

@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
     //!! -- Deklaracja, że na 100% nie jest nullem
     //? -- Może być null
 
+    //catch (e: Exception) -- wyłapujemy wszystkiego rodzaju wyjatki
+
     try {
         val input = readLine()!!.toInt()
         if (input == 0 || input == 1) println("Wynik to: 1")

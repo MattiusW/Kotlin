@@ -21,5 +21,7 @@ fun main(args: Array<String>) {
         }
     }catch (e: NumberFormatException){
         print("Podaj liczbe całkowitą!!!")
+    }finally {
+        println("Wykonuje sie pomimo wylapanych wyjatkow")
     }
 }

@@ -69,4 +69,31 @@ fun main(args: Array<String>) {
     do {
         println("Warunek sprawdzany jest raz mimo, że pętla jest fałszywa")
     }while (false)
+
+
+    //When czyli switch
+
+    var liczba = 150
+
+    when(liczba) {
+        153 -> {
+            println("Jest rowna $liczba")
+        }
+        is Int -> {
+            println("Jest to liczba calkowita")
+        }
+        in 100..200 -> {
+            println("Miesci sie w zakresie od 100 do 200")
+        }
+        else -> {
+            println("ELSE")
+        }
+    }
+
+    val zmienna = when(liczba){
+        153 -> 100
+        else -> "Zmienna"
+    }
+
+    println(zmienna)
 }

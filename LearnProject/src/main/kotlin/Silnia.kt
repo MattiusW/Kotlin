@@ -7,9 +7,10 @@ fun main(args: Array<String>) {
     //? -- Może być null
 
     //catch (e: Exception) -- wyłapujemy wszystkiego rodzaju wyjatki
+    //Try catch uzywamy przy inputach oraz kiedy cos rzutujemy
 
     try {
-        val input = readLine()!!.toInt()
+        val input = readLine()!!.toInt() //Probujemy zamienic na inta
         if (input == 0 || input == 1) println("Wynik to: 1")
         else {
             var silnia = 1

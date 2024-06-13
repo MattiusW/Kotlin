@@ -1,6 +1,9 @@
 package klasy
 
-class Manager(private val workersList: ArrayList<Worker> = ArrayList()) {
+class Manager(private val workersList: ArrayList<Worker> = ArrayList()) : Worker(){
+
+    override lateinit var name: String
+    override lateinit var surname: String
 
     fun addNewWorker(worker: Worker): Boolean {
         return workersList.add(worker)
@@ -16,6 +19,10 @@ class Manager(private val workersList: ArrayList<Worker> = ArrayList()) {
             println(worker)
         }
         println("-------------")
+    }
+
+    override fun toString(): String {
+        return "Manager name: ${name}, Manager surname: ${surname}"
     }
 
 }

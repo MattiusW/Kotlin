@@ -1,8 +1,8 @@
 package klasy
 
-class Worker(
-    val name: String = "Unknown",
-    val surname: String = "Worker",
+open class Worker(
+    open var name: String = "Unknown",
+    open var surname: String = "Worker",
     var experience: Int = 0,
     var salary: Int = 0) {
 

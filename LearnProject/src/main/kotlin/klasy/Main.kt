@@ -7,10 +7,16 @@ fun main(args: Array<String>) {
     println("Manager menu")
 
     val manager = Manager()
+    manager.name = "Mateusz"
+    manager.surname = "W"
+
+    println(manager)
 
     manager.addNewWorker(workerTwo)
     manager.addNewWorker(workerOne)
 
     println(manager.showWorkers())
+
+
 
 }

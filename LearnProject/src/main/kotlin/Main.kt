@@ -1,3 +1,5 @@
+import klasy.Worker
+
 fun main(args: Array<String>) {
 
     var a = 20
@@ -98,12 +100,6 @@ fun main(args: Array<String>) {
     println(zmienna)
 
     println(" --- KLASY KOTLIN --- ")
-
-    // Klasy
-
-    val workerOne = Worker()
-    val workerTwo = Worker("John", "Smith", 10, 25_000)
-
 
 
 }

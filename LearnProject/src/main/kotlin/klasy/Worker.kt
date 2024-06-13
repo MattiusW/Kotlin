@@ -1,6 +1,8 @@
+package klasy
+
 class Worker(
     val name: String = "Unknown",
-    val surname: String = "Worker",
+    val surname: String = "klasy.Worker",
     var experience: Int = 0,
     var salary: Int = 0) {
 

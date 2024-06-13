@@ -2,6 +2,7 @@ package klasy
 
 class Manager(private val workersList: ArrayList<Worker> = ArrayList()) : Worker(){
 
+    //lateinit oznacza wstrzymaniem sie z inicjalizacja pola
     override lateinit var name: String
     override lateinit var surname: String
 

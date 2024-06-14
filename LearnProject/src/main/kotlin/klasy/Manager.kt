@@ -10,6 +10,11 @@ class Manager(private val workersList: ArrayList<Worker> = ArrayList()) : Worker
         return workersList.add(worker)
     }
 
+
+    fun addAllWorkers(list: List<Worker>): Boolean {
+        return workersList.addAll(list)
+    }
+
     fun removeWorker(worker: Worker): Boolean {
         return workersList.remove(worker)
     }
